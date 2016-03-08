@@ -3,9 +3,11 @@
   padding: 0 15px;
   box-sizing: border-box;
 }
+
 .to-right() {
   float: right;
 }
+
 .row(){
   margin-left: -15px;
   margin-right: -15px;
@@ -15,6 +17,7 @@
     clear:both;
   }
 }
+
 .row--inline(){
   font-size: 0;
   .col{
@@ -33,6 +36,12 @@
   width: 100% / (12 / @size);
 }
 
+// mobile
+.sm(@size) {
+  @media(max-width: 780px) {
+    width: 100% / (12 / @size);
+  }
+}
 
 // tablet
 .md(@size) {
@@ -42,9 +51,4 @@
 }
 
 
-// mobile
-.sm(@size) {
-  @media(max-width: 780px) {
-    width: 100% / (12 / @size);
-  }
-}
+
