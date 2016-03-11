@@ -1,0 +1,251 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow {
+    width: 7px;
+    height: 5px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-hover {
+    width: 7px;
+    height: 5px;
+    background-position: -22px -5px;
+}
+
+.sprite-cart-icon {
+    width: 20px;
+    height: 19px;
+    background-position: -39px -5px;
+}
+
+.sprite-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -69px -5px;
+}
+
+.sprite-facebook-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -95px -5px;
+}
+
+.sprite-feature-icon {
+    width: 42px;
+    height: 40px;
+    background-position: -121px -5px;
+}
+
+.sprite-feature-icon-hover {
+    width: 42px;
+    height: 40px;
+    background-position: -5px -55px;
+}
+
+.sprite-feature-icon2 {
+    width: 41px;
+    height: 40px;
+    background-position: -57px -55px;
+}
+
+.sprite-feature-icon2-hover {
+    width: 41px;
+    height: 40px;
+    background-position: -108px -55px;
+}
+
+.sprite-feature-icon3 {
+    width: 25px;
+    height: 41px;
+    background-position: -159px -55px;
+}
+
+.sprite-feature-icon3-hover {
+    width: 25px;
+    height: 41px;
+    background-position: -5px -106px;
+}
+
+.sprite-feature-icon4 {
+    width: 28px;
+    height: 39px;
+    background-position: -40px -106px;
+}
+
+.sprite-feature-icon4-hover {
+    width: 29px;
+    height: 40px;
+    background-position: -78px -106px;
+}
+
+.sprite-flickr {
+    width: 16px;
+    height: 16px;
+    background-position: -173px -5px;
+}
+
+.sprite-flickr-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -117px -106px;
+}
+
+.sprite-google-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -143px -106px;
+}
+
+.sprite-google_ {
+    width: 16px;
+    height: 16px;
+    background-position: -169px -106px;
+}
+
+.sprite-heart-icon {
+    width: 20px;
+    height: 16px;
+    background-position: -117px -132px;
+}
+
+.sprite-heart-icon-hover {
+    width: 20px;
+    height: 16px;
+    background-position: -147px -132px;
+}
+
+.sprite-language-icon {
+    width: 15px;
+    height: 15px;
+    background-position: -177px -132px;
+}
+
+.sprite-language-icon-hover {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -157px;
+}
+
+.sprite-linkedin {
+    width: 16px;
+    height: 16px;
+    background-position: -30px -157px;
+}
+
+.sprite-linkedins-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -56px -157px;
+}
+
+.sprite-login-icon {
+    width: 20px;
+    height: 16px;
+    background-position: -82px -158px;
+}
+
+.sprite-login-icon-hover {
+    width: 20px;
+    height: 16px;
+    background-position: -112px -158px;
+}
+
+.sprite-mail-icon {
+    width: 17px;
+    height: 12px;
+    background-position: -5px -31px;
+}
+
+.sprite-phone-icon {
+    width: 10px;
+    height: 17px;
+    background-position: -177px -157px;
+}
+
+.sprite-phone-icon-hover {
+    width: 10px;
+    height: 17px;
+    background-position: -199px -5px;
+}
+
+.sprite-pinterest {
+    width: 16px;
+    height: 16px;
+    background-position: -194px -32px;
+}
+
+.sprite-pinterest-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -194px -58px;
+}
+
+.sprite-plain-icon-hover {
+    width: 18px;
+    height: 16px;
+    background-position: -195px -84px;
+}
+
+.sprite-plane-icon {
+    width: 18px;
+    height: 16px;
+    background-position: -5px -184px;
+}
+
+.sprite-rss {
+    width: 16px;
+    height: 16px;
+    background-position: -197px -157px;
+}
+
+.sprite-rss-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -33px -183px;
+}
+
+.sprite-search-icon {
+    width: 18px;
+    height: 18px;
+    background-position: -142px -183px;
+}
+
+.sprite-tumblr {
+    width: 16px;
+    height: 16px;
+    background-position: -197px -183px;
+}
+
+.sprite-tumblrshover {
+    width: 16px;
+    height: 16px;
+    background-position: -219px -5px;
+}
+
+.sprite-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -220px -31px;
+}
+
+.sprite-twitter-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -220px -57px;
+}
+
+.sprite-vimeo {
+    width: 16px;
+    height: 16px;
+    background-position: -223px -83px;
+}
+
+.sprite-vimeo-hover {
+    width: 16px;
+    height: 16px;
+    background-position: -223px -109px;
+}

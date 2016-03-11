@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "autoprefixer": "6.1.x",
+    "eslint": "^1.10.3",
     "grunt": "0.4.x",
     "grunt-combine-media-queries": "^1.0.19",
     "grunt-contrib-clean": "0.6.x",
@@ -14,14 +15,14 @@
     "grunt-contrib-uglify": "^0.11.0",
     "grunt-contrib-watch": "0.6.x",
     "grunt-csscomb": "^3.1.0",
+    "grunt-include-replace": "^3.2.0",
     "grunt-lintspaces": "0.7.x",
     "grunt-postcss": "0.7.x",
-    "load-grunt-tasks": "3.3.x",
-    "eslint": "^1.10.3",
-    "http-server": "^0.8.5"
+    "http-server": "^0.8.5",
+    "load-grunt-tasks": "3.3.x"
   },
   "scripts": {
-    "test": "eslint js/",
+    "test": "eslint source/js/",
     "start": "http-server ."
   }
 }

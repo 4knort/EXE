@@ -73,12 +73,8 @@ module.exports = function(grunt){
           expand: true,
           cwd: "source",
           src: [
-            "js/jquery.js",
             "img/**",
-            "index.html",
-            "form.html",
-            "blog.html",
-            "post.html"
+            // "index.html"
           ],
           dest: "build"
         }]
@@ -102,11 +98,21 @@ module.exports = function(grunt){
           "build/js/script.min.js": ["build/js/script.js"]
         }
       }
-    } 
-  });
+    }, 
+
+    includereplace: {
+    my_target: {
+      src: '*.html',
+      dest: 'build/',
+      expand: true,
+      cwd: 'source/'
+    },
+  },
+});
 grunt.registerTask("build", [
     "clean",
     "copy",
+    "includereplace",
     "csscomb",
     "less",
     "cmq",

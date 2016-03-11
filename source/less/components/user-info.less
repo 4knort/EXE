@@ -1,0 +1,33 @@
+.user-info {
+  font-size: 0;
+  &__link{
+    color: #636363;
+    font-size: 13px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 30%;
+    padding-left: 25px;
+    box-sizing: border-box;   
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      top: 0;
+      left: 0;
+      background: url("../img/sprites.png") no-repeat;
+    } 
+    &--language:before{
+      background-position: -177px -132px;
+    }
+    &--tel:before{
+      background-position: -177px -157px;
+    }
+    &--mail:before{
+      background-position: -5px -184px;
+    }
+  } 
+}
