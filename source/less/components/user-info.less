@@ -1,16 +1,21 @@
 .user-info {
   font-size: 0;
+  width: 40%;
+  line-height: 0;
   &__link{
-    color: #636363;
+    color: @grey-txt;
     font-size: 13px;
     line-height: 20px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    width: 30%;
+    width: 37%;
     padding-left: 25px;
     box-sizing: border-box;   
     position: relative;
+    &:nth-child(1) {
+      width: 25%
+    }
     &:before{
       content: "";
       position: absolute;
@@ -28,6 +33,9 @@
     }
     &--mail:before{
       background-position: -5px -184px;
+    }
+    &__btn{
+      display: none;
     }
   } 
 }

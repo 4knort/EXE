@@ -24,7 +24,7 @@ module.exports = function(grunt){
     watch: {
       style: {
         files: ["source/less/**/*.less", "source/js/*.js"],
-        tasks: ["less", "postcss", "cssmin", "concat", "uglify"],
+        tasks: ["includereplace", "less", "postcss", "cssmin", "concat", "uglify"],
         options: {
           spawn: false,
           livereload: true

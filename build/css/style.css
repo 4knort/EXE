@@ -410,6 +410,12 @@ button:focus {
 .to-left {
   float: left;
 }
+.row .col:first-child {
+  padding-left: 0;
+}
+.row .col:last-child {
+  padding-right: 0;
+}
 .row:after {
   content: "";
   display: block;
@@ -452,10 +458,12 @@ button:focus {
 }
 .main-header__top {
   background-color: #111;
-  padding: 15px 0 ;
+  padding: 12px 0 ;
 }
 .user-info {
   font-size: 0;
+  width: 40%;
+  line-height: 0;
 }
 .user-info__link {
   color: #636363;
@@ -464,10 +472,13 @@ button:focus {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  width: 30%;
+  width: 37%;
   padding-left: 25px;
   box-sizing: border-box;
   position: relative;
+}
+.user-info__link:nth-child(1) {
+  width: 25%;
 }
 .user-info__link:before {
   content: "";
@@ -486,4 +497,84 @@ button:focus {
 }
 .user-info__link--mail:before {
   background-position: -5px -184px;
+}
+.user-info__link__btn {
+  display: none;
+}
+.user-login {
+  font-size: 0;
+  color: #636363;
+  width: 30%;
+  line-height: 0;
+}
+.user-login__menu {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.user-login__wishlist {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  line-height: 20px;
+  width: 50%;
+  box-sizing: border-box;
+}
+.user-login__signin {
+  color: #636363;
+  position: relative;
+  padding-left: 30px;
+}
+.user-login__signin:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/sprites.png") no-repeat -82px -158px;
+  width: 20px;
+  height: 16px;
+}
+.user-login__register {
+  color: #636363;
+}
+.user-login__wishlist-link {
+  color: #636363;
+  padding-left: 30px;
+  position: relative;
+  padding-right: 18px;
+}
+.user-login__wishlist-link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/sprites.png") no-repeat -117px -132px;
+  width: 20px;
+  height: 16px;
+}
+.user-login__wishlist-link:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 0;
+  background: url("../img/sprites.png") no-repeat -5px -5px;
+  width: 7px;
+  height: 5px;
+}
+.social {
+  width: 15%;
+  font-size: 0;
+  line-height: 0;
+}
+.social__link {
+  display: inline-block;
+  vertical-align: top;
+  width: 16px;
+  height: 16px;
+  margin-right: 5%;
+  background: url("../img/sprites.png") no-repeat -95px -5px;
+  margin-bottom: 5px;
 }
