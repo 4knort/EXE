@@ -1,0 +1,57 @@
+.features {
+  padding-top: 85px;
+  padding-bottom: 80px;
+  background-color: @grey-bg;
+  // margin: 0 -15px;
+  &__item {
+    position: relative;
+    padding-top: 128px;
+    &-text {
+      position: relative;
+      .line-bot(-27px, 70px, @red);
+    }
+    &-title {
+      margin: 0;
+      font-size: 18px;
+      line-height: 20px; 
+      color: @grey-txt;
+    }
+    &-text {
+      font-size: 14px;
+      line-height: 20px;
+      color: @grey-txt-sm;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 16px;
+      width: 96px;
+      height: 96px;
+      background-color: transparent;
+      border: 2px solid @grey-txt-sm;
+      border-radius: 50%;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 30px;
+      left: 45px;
+      width: 42px;
+      height: 42px;
+      background: url("../img/sprites.png") no-repeat 0 0;
+    }
+    &--clean:before {
+      background-position: -33px -106px;
+    }
+    &--branding:before {
+      background-position: -121px -5px;
+    }
+    &--responsive:before {
+      background-position: -150px -55px;
+    }
+    &--developing:before {
+      background-position: -57px -55px;
+    }
+  }
+}

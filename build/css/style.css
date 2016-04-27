@@ -423,6 +423,7 @@ button:focus {
 }
 .row--inline {
   font-size: 0;
+  margin: 0 -15px;
 }
 .row--inline .col {
   float: none;
@@ -649,6 +650,7 @@ button:focus {
   margin: 0 auto;
 }
 .slider__arrow {
+  z-index: 100;
   cursor: pointer;
   width: 42px;
   height: 42px;
@@ -786,4 +788,68 @@ button:focus {
 .typical-button--preview {
   border: 2px solid #fff;
   background-color: transparent;
+}
+.features {
+  padding-top: 85px;
+  padding-bottom: 80px;
+  background-color: #252525;
+}
+.features__item {
+  position: relative;
+  padding-top: 128px;
+}
+.features__item-text {
+  position: relative;
+}
+.features__item-text:after {
+  content: "";
+  position: absolute;
+  bottom: -27px;
+  left: 0;
+  width: 70px;
+  height: 2px;
+  background-color: #e5493a;
+}
+.features__item-title {
+  margin: 0;
+  font-size: 18px;
+  line-height: 20px;
+  color: #636363;
+}
+.features__item-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #434343;
+}
+.features__item:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 96px;
+  height: 96px;
+  background-color: transparent;
+  border: 2px solid #434343;
+  border-radius: 50%;
+}
+.features__item:before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  width: 42px;
+  height: 42px;
+  background: url("../img/sprites.png") no-repeat 0 0;
+}
+.features__item--clean:before {
+  background-position: -33px -106px;
+}
+.features__item--branding:before {
+  background-position: -121px -5px;
+}
+.features__item--responsive:before {
+  background-position: -150px -55px;
+}
+.features__item--developing:before {
+  background-position: -57px -55px;
 }

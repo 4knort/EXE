@@ -1,0 +1,11 @@
+.line-bot(@bot, @width, @bg) {
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: @bot;
+    left: 0;
+    width: @width;
+    height: 2px;
+    background-color: @bg; 
+  }
+}
