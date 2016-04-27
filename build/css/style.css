@@ -628,3 +628,54 @@ button:focus {
   height: 18px;
   background: url("../img/sprites.png") no-repeat -142px -183px;
 }
+.slider-wrap {
+  background-color: #202427;
+}
+.slider {
+  position: relative;
+}
+.slider__slide-description {
+  position: absolute;
+  top: 256px;
+  right: 130px;
+  max-width: 600px;
+}
+.slider__slide-description-title {
+  font-size: 43px;
+  line-height: 43px;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 13px;
+}
+.slider__slide-description-red {
+  color: #e5493a;
+}
+.slider__slide-description-big {
+  font-size: 80px;
+  line-height: 80px;
+}
+.slider__slide-description-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #636363;
+  margin: 0;
+  margin-bottom: 33px;
+}
+.typical-button {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 19px 30px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 36px;
+}
+.typical-button--red {
+  background-color: #e5493a;
+}
+.typical-button--preview {
+  border: 2px solid #fff;
+  background-color: transparent;
+}
