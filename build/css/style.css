@@ -433,29 +433,14 @@ button:focus {
 .row--inline:after {
   display: none;
 }
-.lg-1 {
-  width: 8.33333333%;
-}
-.lg-2 {
-  width: 16.66666667%;
-}
 .lg-3 {
   width: 25%;
 }
 .lg-4 {
   width: 33.33333333%;
 }
-.lg-5 {
-  width: 41.66666667%;
-}
-.lg-6 {
-  width: 50%;
-}
 .lg-8 {
   width: 66.66666667%;
-}
-.lg-9 {
-  width: 75%;
 }
 .main-header__top {
   background-color: #111;
