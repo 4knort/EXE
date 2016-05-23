@@ -1,0 +1,88 @@
+.our-skills{
+  padding-top: 107px;
+  padding-bottom: 82px;
+  background-color: #e5493a;
+  &__description{
+    color: #fff;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 28px;
+    position: relative;
+    .line-top(-30px, 0, 70px, #fff);
+  }
+  &__text{
+    margin-bottom: 46px;
+  }
+  &__items{
+    padding-left: 10px;
+    padding-top: 25px;
+  }
+  &__item{
+    margin-bottom: 18px;
+    &-title{
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    &-scale{
+      width: 100%;
+      border: 1px solid #ec776b;
+      padding: 2px 2px;
+      -webkit-border-radius: 3px;
+              border-radius: 3px;
+    }
+    &-bar{
+      height: 4px;
+      background-color: #fff;
+      position: relative;
+      &:after{
+        font-size: 11px;
+        line-height: 11px;
+        color: #fff;
+        -webkit-border-radius: 3px;
+                border-radius: 3px;
+        position: absolute;
+        padding: 3px 5px ;
+        background-color: #000;
+        top: -31px;
+        right: -16px;
+      }
+      &:before{
+        content: "";
+        position: absolute;
+        border: 3px solid transparent;
+        border-top-color: #000;
+        top: -14px;
+        right: -3px;
+      }
+      &--photoshop{
+        width: 93%;
+        &:after{
+          content: "95%";
+        }
+      }
+      &--wordpress{
+        width: 50%;
+        &:after{
+          content: "50%";
+        }
+      }
+      &--ecommerce{
+        width: 70%;
+        &:after{
+          content: "72%";
+        }
+      }
+      &--photography{
+        width: 34%;
+        &:after{
+          content: "36%";
+        }
+      }
+    }
+  }
+}

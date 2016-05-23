@@ -7,251 +7,251 @@
 .sprite-arrow {
     width: 7px;
     height: 5px;
-    background-position: -5px -5px;
+    background-position: -10px -10px;
 }
 
 .sprite-arrow-hover {
     width: 7px;
     height: 5px;
-    background-position: -22px -5px;
+    background-position: -10px -35px;
 }
 
 .sprite-cart-icon {
     width: 20px;
     height: 19px;
-    background-position: -39px -5px;
+    background-position: -10px -60px;
 }
 
 .sprite-facebook {
     width: 16px;
     height: 16px;
-    background-position: -69px -5px;
+    background-position: -10px -99px;
 }
 
 .sprite-facebook-hover {
     width: 16px;
     height: 16px;
-    background-position: -95px -5px;
+    background-position: -10px -135px;
 }
 
 .sprite-feature-icon {
     width: 42px;
     height: 40px;
-    background-position: -121px -5px;
+    background-position: -10px -171px;
 }
 
 .sprite-feature-icon-hover {
     width: 42px;
     height: 40px;
-    background-position: -5px -55px;
+    background-position: -10px -231px;
 }
 
 .sprite-feature-icon2 {
     width: 41px;
     height: 40px;
-    background-position: -57px -55px;
+    background-position: -10px -291px;
 }
 
 .sprite-feature-icon2-hover {
     width: 41px;
     height: 40px;
-    background-position: -108px -55px;
+    background-position: -10px -351px;
 }
 
 .sprite-feature-icon3 {
     width: 25px;
     height: 41px;
-    background-position: -159px -55px;
+    background-position: -10px -411px;
 }
 
 .sprite-feature-icon3-hover {
     width: 25px;
     height: 41px;
-    background-position: -5px -106px;
+    background-position: -10px -472px;
 }
 
 .sprite-feature-icon4 {
     width: 28px;
     height: 39px;
-    background-position: -40px -106px;
+    background-position: -10px -533px;
 }
 
 .sprite-feature-icon4-hover {
     width: 29px;
     height: 40px;
-    background-position: -78px -106px;
+    background-position: -10px -592px;
 }
 
 .sprite-flickr {
     width: 16px;
     height: 16px;
-    background-position: -173px -5px;
+    background-position: -10px -652px;
 }
 
 .sprite-flickr-hover {
     width: 16px;
     height: 16px;
-    background-position: -117px -106px;
+    background-position: -10px -688px;
 }
 
 .sprite-google-hover {
     width: 16px;
     height: 16px;
-    background-position: -143px -106px;
+    background-position: -10px -724px;
 }
 
 .sprite-google_ {
     width: 16px;
     height: 16px;
-    background-position: -169px -106px;
+    background-position: -10px -760px;
 }
 
 .sprite-heart-icon {
     width: 20px;
     height: 16px;
-    background-position: -117px -132px;
+    background-position: -10px -796px;
 }
 
 .sprite-heart-icon-hover {
     width: 20px;
     height: 16px;
-    background-position: -147px -132px;
+    background-position: -10px -832px;
 }
 
 .sprite-language-icon {
     width: 15px;
     height: 15px;
-    background-position: -177px -132px;
+    background-position: -10px -868px;
 }
 
 .sprite-language-icon-hover {
     width: 15px;
     height: 15px;
-    background-position: -5px -157px;
+    background-position: -10px -903px;
 }
 
 .sprite-linkedin {
     width: 16px;
     height: 16px;
-    background-position: -30px -157px;
+    background-position: -10px -938px;
 }
 
 .sprite-linkedins-hover {
     width: 16px;
     height: 16px;
-    background-position: -56px -157px;
+    background-position: -10px -974px;
 }
 
 .sprite-login-icon {
     width: 20px;
     height: 16px;
-    background-position: -82px -158px;
+    background-position: -10px -1010px;
 }
 
 .sprite-login-icon-hover {
     width: 20px;
     height: 16px;
-    background-position: -112px -158px;
+    background-position: -10px -1046px;
 }
 
 .sprite-mail-icon {
     width: 17px;
     height: 12px;
-    background-position: -5px -31px;
+    background-position: -10px -1082px;
 }
 
 .sprite-phone-icon {
     width: 10px;
     height: 17px;
-    background-position: -177px -157px;
+    background-position: -10px -1114px;
 }
 
 .sprite-phone-icon-hover {
     width: 10px;
     height: 17px;
-    background-position: -199px -5px;
+    background-position: -10px -1151px;
 }
 
 .sprite-pinterest {
     width: 16px;
     height: 16px;
-    background-position: -194px -32px;
+    background-position: -10px -1188px;
 }
 
 .sprite-pinterest-hover {
     width: 16px;
     height: 16px;
-    background-position: -194px -58px;
+    background-position: -10px -1224px;
 }
 
 .sprite-plain-icon-hover {
     width: 18px;
     height: 16px;
-    background-position: -195px -84px;
+    background-position: -10px -1260px;
 }
 
 .sprite-plane-icon {
     width: 18px;
     height: 16px;
-    background-position: -197px -157px;
+    background-position: -10px -1296px;
 }
 
 .sprite-rss {
     width: 16px;
     height: 16px;
-    background-position: -5px -183px;
+    background-position: -10px -1332px;
 }
 
 .sprite-rss-hover {
     width: 16px;
     height: 16px;
-    background-position: -31px -183px;
+    background-position: -10px -1368px;
 }
 
 .sprite-search-icon {
     width: 18px;
     height: 18px;
-    background-position: -142px -183px;
+    background-position: -10px -1404px;
 }
 
 .sprite-tumblr {
     width: 16px;
     height: 16px;
-    background-position: -197px -183px;
+    background-position: -10px -1442px;
 }
 
 .sprite-tumblrshover {
     width: 16px;
     height: 16px;
-    background-position: -219px -5px;
+    background-position: -10px -1478px;
 }
 
 .sprite-twitter {
     width: 16px;
     height: 16px;
-    background-position: -220px -31px;
+    background-position: -10px -1514px;
 }
 
 .sprite-twitter-hover {
     width: 16px;
     height: 16px;
-    background-position: -220px -57px;
+    background-position: -10px -1550px;
 }
 
 .sprite-vimeo {
     width: 16px;
     height: 16px;
-    background-position: -223px -83px;
+    background-position: -10px -1586px;
 }
 
 .sprite-vimeo-hover {
     width: 16px;
     height: 16px;
-    background-position: -223px -109px;
+    background-position: -10px -1622px;
 }
 
 .sprite-zchain-icon {
     width: 15px;
     height: 14px;
-    background-position: -69px -31px;
+    background-position: -10px -1658px;
 }
