@@ -1,26 +1,26 @@
-.features {
+.features{
   padding-top: 85px;
   padding-bottom: 80px;
   background-color: @grey-bg;
-  &__item {
+  &__item{
     position: relative;
     padding-top: 128px;
-    &-text {
+    &-text{
       position: relative;
       .line-bot(-27px, 0, 70px, @red);
     }
-    &-title {
+    &-title{
       margin: 0;
       font-size: 18px;
-      line-height: 20px; 
+      line-height: 20px;
       color: @grey-txt;
     }
-    &-text {
+    &-text{
       font-size: 14px;
       line-height: 20px;
       color: @grey-txt-sm;
     }
-    &:after {
+    &:after{
       content: "";
       position: absolute;
       top: 0;
@@ -31,7 +31,7 @@
       border: 2px solid @grey-txt-sm;
       border-radius: 50%;
     }
-    &:before {
+    &:before{
       content: "";
       position: absolute;
       top: 30px;
@@ -40,16 +40,16 @@
       height: 42px;
       background: url("../img/sprites.png") no-repeat 0 0;
     }
-    &--clean:before {
+    &--clean:before{
       background-position: -33px -106px;
     }
-    &--branding:before {
+    &--branding:before{
       background-position: -121px -5px;
     }
-    &--responsive:before {
+    &--responsive:before{
       background-position: -150px -55px;
     }
-    &--developing:before {
+    &--developing:before{
       background-position: -57px -55px;
     }
   }

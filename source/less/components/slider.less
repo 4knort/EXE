@@ -1,20 +1,20 @@
-.slider {
+.slider{
   position: relative;
   height: 790px;
   max-width: 1170px;
   margin: 0 auto;
-  &__arrow {
+  &__arrow{
     z-index: 100;
     cursor: pointer;
     width: 42px;
     height: 42px;
     background-color: #373a3d;
-    position: absolute; 
+    position: absolute;
     top: 50%;
     border-radius: 3px;
-    &--right {
+    &--right{
       right: 0;
-      &:after {
+      &:after{
         content: "";
         position: absolute;
         top: 16px;
@@ -24,7 +24,7 @@
         height: 2px;
         transform: rotate(45deg);
       }
-      &:before {
+      &:before{
         content: "";
         position: absolute;
         top: 23px;
@@ -32,12 +32,12 @@
         background-color: #fff;
         width: 12px;
         height: 2px;
-        transform: rotate(-45deg); 
+        transform: rotate(-45deg);
       }
     }
-    &--left {
+    &--left{
       left: 0;
-      &:after {
+      &:after{
         content: "";
         position: absolute;
         top: 16px;
@@ -47,7 +47,7 @@
         height: 2px;
         transform: rotate(-45deg);
       }
-      &:before {
+      &:before{
         content: "";
         position: absolute;
         top: 23px;
@@ -59,7 +59,7 @@
       }
     }
   }
-  &__controls {
+  &__controls{
     position: absolute;
     bottom: 25px;
     left: 50%;
@@ -67,7 +67,7 @@
     width: 100px;
     height: 20px;
     margin-left: -50px;
-    &-item {
+    &-item{
       display: inline-block;
       vertical-align: top;
       width: 10px;
@@ -76,7 +76,7 @@
       background-color: #eeebe5;
       margin-right: 5px;
       cursor: pointer;
-      &--active {
+      &--active{
         background-color: @red;
       }
     }
@@ -86,34 +86,34 @@
     height: 100%;
   }
   &__slide{
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../img/slider-img.jpg");
-  background-position: -290px 0;
-  height: 100%;
-  width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/slider-img.jpg");
+    background-position: -290px 0;
+    height: 100%;
+    width: 100%;
   }
-  &__slide-description {
+  &__slide-description{
     position: absolute;
     top: 256px;
     right: -30px;
     max-width: 600px;
-    &-title {
+    &-title{
       font-size: 43px;
       line-height: 43px;
       color: #fff;
       margin: 0;
       margin-bottom: 13px;
     }
-    &-red {
+    &-red{
       color: @red;
     }
-    &-big {
+    &-big{
       font-size: 80px;
       line-height: 80px;
     }
-    &-text {
+    &-text{
       font-size: 18px;
       line-height: 24px;
       color: @grey-txt;

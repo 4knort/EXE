@@ -1,23 +1,23 @@
-.line-bot(@bot, @left, @width, @bg) {
-  &:after {
+.line-bot(@bot, @left, @width, @bg){
+  &:after{
     content: "";
     position: absolute;
     bottom: @bot;
     left: @left;
     width: @width;
     height: 2px;
-    background-color: @bg; 
+    background-color: @bg;
   }
 }
 
-.line-top(@top, @left, @width, @bg) {
-  &:after {
+.line-top(@top, @left, @width, @bg){
+  &:after{
     content: "";
     position: absolute;
     top: @top;
     left: @left;
     width: @width;
     height: 2px;
-    background-color: @bg; 
+    background-color: @bg;
   }
 }

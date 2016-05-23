@@ -193,19 +193,19 @@
 .sprite-plane-icon {
     width: 18px;
     height: 16px;
-    background-position: -197px -157px;
+    background-position: -5px -184px;
 }
 
 .sprite-rss {
     width: 16px;
     height: 16px;
-    background-position: -5px -183px;
+    background-position: -197px -157px;
 }
 
 .sprite-rss-hover {
     width: 16px;
     height: 16px;
-    background-position: -31px -183px;
+    background-position: -33px -183px;
 }
 
 .sprite-search-icon {
@@ -248,10 +248,4 @@
     width: 16px;
     height: 16px;
     background-position: -223px -109px;
-}
-
-.sprite-zchain-icon {
-    width: 15px;
-    height: 14px;
-    background-position: -69px -31px;
 }
