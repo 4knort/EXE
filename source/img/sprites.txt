@@ -255,3 +255,21 @@
     height: 14px;
     background-position: -10px -1658px;
 }
+
+.sprite-zzimage-icon {
+    width: 21px;
+    height: 16px;
+    background-position: -10px -1692px;
+}
+
+.sprite-zzmovie-icon {
+    width: 18px;
+    height: 20px;
+    background-position: -10px -1728px;
+}
+
+.sprite-zzphoto-icon {
+    width: 22px;
+    height: 16px;
+    background-position: -10px -1768px;
+}
