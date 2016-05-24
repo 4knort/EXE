@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
   * 1. Set default font family to sans-serif.
@@ -629,16 +630,16 @@ button:focus {
   height: 18px;
   background: url("../img/sprites.png") no-repeat -10px -1404px;
 }
-.slider-wrap {
+.slider-top-wrap {
   background: url(../img/slider-bg.jpg) repeat;
 }
-.slider {
+.slider-top {
   position: relative;
   height: 790px;
   max-width: 1170px;
   margin: 0 auto;
 }
-.slider__arrow {
+.slider-top__arrow {
   z-index: 100;
   cursor: pointer;
   width: 42px;
@@ -648,10 +649,10 @@ button:focus {
   top: 50%;
   border-radius: 3px;
 }
-.slider__arrow--right {
+.slider-top__arrow--right {
   right: 0;
 }
-.slider__arrow--right:after {
+.slider-top__arrow--right:after {
   content: "";
   position: absolute;
   top: 16px;
@@ -661,7 +662,7 @@ button:focus {
   height: 2px;
   transform: rotate(45deg);
 }
-.slider__arrow--right:before {
+.slider-top__arrow--right:before {
   content: "";
   position: absolute;
   top: 23px;
@@ -671,10 +672,10 @@ button:focus {
   height: 2px;
   transform: rotate(-45deg);
 }
-.slider__arrow--left {
+.slider-top__arrow--left {
   left: 0;
 }
-.slider__arrow--left:after {
+.slider-top__arrow--left:after {
   content: "";
   position: absolute;
   top: 16px;
@@ -684,7 +685,7 @@ button:focus {
   height: 2px;
   transform: rotate(-45deg);
 }
-.slider__arrow--left:before {
+.slider-top__arrow--left:before {
   content: "";
   position: absolute;
   top: 23px;
@@ -694,7 +695,7 @@ button:focus {
   height: 2px;
   transform: rotate(45deg);
 }
-.slider__controls {
+.slider-top__controls {
   position: absolute;
   bottom: 25px;
   left: 50%;
@@ -703,7 +704,7 @@ button:focus {
   height: 20px;
   margin-left: -50px;
 }
-.slider__controls-item {
+.slider-top__controls-item {
   display: inline-block;
   vertical-align: top;
   width: 10px;
@@ -713,14 +714,14 @@ button:focus {
   margin-right: 5px;
   cursor: pointer;
 }
-.slider__controls-item--active {
+.slider-top__controls-item--active {
   background-color: #e5493a;
 }
-.slider__slides {
+.slider-top__slides {
   width: 100%;
   height: 100%;
 }
-.slider__slide {
+.slider-top__slide {
   position: absolute;
   top: 0;
   left: 0;
@@ -729,27 +730,27 @@ button:focus {
   height: 100%;
   width: 100%;
 }
-.slider__slide-description {
+.slider-top__slide-description {
   position: absolute;
   top: 256px;
   right: -30px;
   max-width: 600px;
 }
-.slider__slide-description-title {
+.slider-top__slide-description-title {
   font-size: 43px;
   line-height: 43px;
   color: #fff;
   margin: 0;
   margin-bottom: 13px;
 }
-.slider__slide-description-red {
+.slider-top__slide-description-red {
   color: #e5493a;
 }
-.slider__slide-description-big {
+.slider-top__slide-description-big {
   font-size: 80px;
   line-height: 80px;
 }
-.slider__slide-description-text {
+.slider-top__slide-description-text {
   font-size: 18px;
   line-height: 24px;
   color: #636363;
@@ -1171,10 +1172,10 @@ button:focus {
   box-sizing: border-box;
 }
 .blog__item-author {
-  color: #FFF;
+  color: #fff;
 }
 .blog__item-comments {
-  color: #FFF;
+  color: #fff;
 }
 .blog__item-icon {
   position: absolute;
@@ -1184,16 +1185,16 @@ button:focus {
   left: 30px;
 }
 .blog__item-icon--image {
-  background: url(../img/sprites.png) 0px -1680px, #000;
+  background: url(../img/sprites.png) 0 -1680px, #000;
 }
 .blog__item-icon--movie {
   background: url(../img/sprites.png) 2px -1718px, #000;
 }
 .blog__item-icon--photo {
-  background: url(../img/sprites.png) 0px -1756px, #000;
+  background: url(../img/sprites.png) 0 -1756px, #000;
 }
 .blog__item-icon--photo {
-  background: url(../img/sprites.png) 0px -1756px, #000;
+  background: url(../img/sprites.png) 0 -1756px, #000;
 }
 .blog__item-hover {
   position: absolute;
@@ -1250,10 +1251,255 @@ button:focus {
   background-image: url(../img/blog-item3.jpg);
 }
 .blog__item-link {
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   line-height: 20px;
 }
 .blog__item:hover {
   box-shadow: inset 0 0 0 5px #e5493a;
+}
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url("ajax-loader.gif") center center no-repeat;
+}
+/* Icons */
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/slick.eot");
+  src: url("fonts/slick.eot?#iefix") format("embedded-opentype"), url("fonts/slick.woff") format("woff"), url("fonts/slick.ttf") format("truetype"), url("fonts/slick.svg#slick") format("svg");
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding: 0;
+  border: none;
+  outline: none;
+}
+.slick-prev:hover,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus {
+  outline: none;
+  background: transparent;
+  color: transparent;
+}
+.slick-prev:hover:before,
+.slick-next:hover:before,
+.slick-prev:focus:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  color: white;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+  left: -35px;
+  background: url("../img/sprites-arrows.png") -5px -5px no-repeat;
+}
+.slick-prev[dir="rtl"] {
+  left: auto;
+  right: -25px;
+}
+.slick-next {
+  right: -35px;
+  background: url("../img/sprites-arrows.png") -5px -125px no-repeat;
+}
+.slick-next[dir="rtl"] {
+  left: -25px;
+  right: auto;
+}
+/* Dots */
+.slick-dotted .slick-slider {
+  margin-bottom: 30px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+.slick-prev:hover {
+  background: url("../img/sprites-arrows.png") -5px -85px no-repeat;
+}
+.slick-next:hover {
+  background: url("../img/sprites-arrows.png") -5px -205px no-repeat;
+}
+.slick-prev:focus {
+  background: url("../img/sprites-arrows.png") -5px -45px no-repeat;
+}
+.slick-next:focus {
+  background: url("../img/sprites-arrows.png") -5px -165px no-repeat;
 }

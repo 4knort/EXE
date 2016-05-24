@@ -87,7 +87,7 @@ module.exports = function(grunt){
 
     concat: {
       dist: {
-        src: ["source/js/script.js"],
+        src: ["source/js/script.js", "source/js/slick.js"],
         dest: "build/js/script.js"
       }
     },

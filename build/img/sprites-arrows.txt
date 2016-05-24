@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow-left {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-left-focus {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+.sprite-arrow-left-hover {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -85px;
+}
+
+.sprite-arrow-right {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -125px;
+}
+
+.sprite-arrow-right-focus {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -165px;
+}
+
+.sprite-arrow-right-hover {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -205px;
+}
