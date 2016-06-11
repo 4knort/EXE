@@ -734,6 +734,14 @@ button:focus {
   height: 100%;
   width: 100%;
 }
+.slider-top__slide:nth-child(2) {
+  background: url("../img/slider-img2.jpg");
+  background-position: -290px 0;
+}
+.slider-top__slide:nth-child(3) {
+  background: url("../img/slider-img3.jpg");
+  background-position: -290px 0;
+}
 .slider-top__slide-description {
   position: absolute;
   top: 256px;
@@ -1345,11 +1353,15 @@ button:focus {
   display: none;
 }
 .slider {
-  width: 50%;
+  width: 65%;
   margin: 100px auto;
+  margin-top: 0;
+  max-width: 900px;
 }
 .slick-slide {
   margin: 0 20px;
+  margin-right: 45px;
+  opacity: 0.1;
 }
 .slick-slide img {
   width: 100%;
@@ -1439,7 +1451,7 @@ button:focus {
 }
 .slick-dots {
   position: absolute;
-  bottom: -25px;
+  bottom: -45px;
   list-style: none;
   display: block;
   text-align: center;
@@ -1484,17 +1496,17 @@ button:focus {
   content: "•";
   width: 20px;
   height: 20px;
+  font-size: 12px;
   font-family: "slick";
-  font-size: 6px;
   line-height: 20px;
   text-align: center;
-  color: black;
+  color: grey;
   opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .slick-dots li.slick-active button:before {
-  color: black;
+  color: red;
   opacity: 0.75;
 }
 .slick-prev:hover {
@@ -1509,17 +1521,40 @@ button:focus {
 .slick-next:focus {
   background: url("../img/sprites-arrows.png") -5px -165px no-repeat;
 }
-.slider {
-  margin-top: 0;
-  width: 65%;
-}
-.slick-slide {
-  margin-right: 45px;
-  opacity: 0.1;
-}
 .slick-slide:hover {
   opacity: 1;
 }
 .carousel {
-  background-color: black;
+  background-color: #202020;
+  padding-top: 84px;
+  padding-bottom: 30px;
+}
+.carousel__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  margin-bottom: 23px;
+}
+.carousel__title:before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  background-color: #2f2f2f;
+  top: 0;
+  left: 50%;
+  margin-left: -35px;
+}
+.carousel__text {
+  color: #434343;
+  text-align: center;
+  width: 570px;
+  margin: 0 auto;
+  margin-bottom: 58px;
 }
